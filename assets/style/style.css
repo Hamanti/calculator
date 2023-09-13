@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    border: none;
+    transition: 0.45s;
+    outline: none;
+
+}
+
+body{
+  background: #202020;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+input, button{
+    border: 1px solid #fff;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+    padding: 16px 35px;
+    font-size: 24px;
+}
+.math-btn{
+    padding: 16px;
+    width: 60px;
+}
+button:hover:not(.active){
+    background: rgb(253, 94, 142);
+    box-shadow: 0 0 40px 0 rgba(253, 94, 142, 0.649);
+    border: 1px solid rgb(253, 94, 142);
+    cursor: pointer;
+    color: #fff;
+}
+
+button.active{
+    background: rgb(253, 94, 142);
+    box-shadow: 0 0 40px 0 rgba(253, 94, 142, 0.649);
+    border: 1px solid rgb(253, 94, 142);
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid rgb(253, 94, 142);
+    padding: 50px;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+input:focus{
+   
+    box-shadow: 0 0 40px 0 rgba(253, 94, 142, 0.274);
+    border: 1px solid rgb(253, 94, 142);
+    color: rgb(253, 94, 142);
+}
+
+h2{
+    color: rgb(253, 94, 142);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    border-top: 1px solid rgb(253, 94, 142);
+    border-bottom: 1px solid rgb(253, 94, 142);
+}
+
+.calc{
+    display: flex;
+    grid-gap: 30px;
+}
+
+.btns{
+    
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
